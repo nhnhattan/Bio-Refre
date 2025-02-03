@@ -1,35 +1,65 @@
 @media (max-width: 739px) {
-  .bio-wrapper  {
-    height: auto;
+  .bio-wrapper {
+    width: 100vw;
+    min-height: 100vh;
+    background-image: url("../img/CoverforBio_Mobile-1.png");
+    background-repeat: no-repeat;
+    background-size: 150% 100%;
+    background-attachment: scroll;
+    background-position: top;
+    padding-bottom: 2rem;
+    padding-top: 4rem;
+  }
+
+  .bio-wrapper {
+    max-height: 100vh;
   }
 
   .item-wrapper {
     width: 90%;
+    margin-top: 0;
+    margin-bottom: 4rem;
   }
 
   .brand-information .brand-avatar {
     width: 30%;
   }
 
+  .brand-information .brand-name {
+    font-size: 1.4rem;
+  }
+
+  .brand-link_wrapper ul {
+    margin: 1rem 0;
+    margin-bottom: 0rem;
+  }
+
   .brand-link_item li {
     min-width: auto;
-    width: 100%;
+    width: 90%;
   }
 
   .brand-link_item li a {
-    padding: 1.2rem 0;
+    padding: 1rem 0;
+    margin-bottom: 0.8rem;
   }
 
   .brand-link_item li a img {
     width: 12%;
     margin-left: 0.3rem;
+    left: 0;
+  }
+
+  .brand-link_item li:nth-child(5) a span,
+  .brand-link_item li:nth-child(6) a span {
+    padding-left: 1rem;
   }
 
   .brand-link_item li a span {
-    font-size: 1rem;
-    padding-left: 1.6rem;
+    font-size: 0.8rem;
+    padding-left: 1.8rem;
+    font-weight: 600;
   }
-
 
   .brand-link_icons ul li {
     margin: 0.5rem 1rem;
@@ -103,6 +133,7 @@
 @media (min-width: 740px) and (max-width: 1024px) {
   .item-wrapper {
     width: 80%;
+    margin-top: 0;
   }
 
   .brand-information .brand-avatar {
